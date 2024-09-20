@@ -1,14 +1,23 @@
 {
-  "name": "phoneauth",
+  "name": "backend",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+>>>>>>> 88b3506444cc359d23327441f827fa1a376f15ac
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "@react-native-async-storage/async-storage": "1.23.1",
     "@react-native-firebase/app": "^20.5.0",
     "@react-native-firebase/auth": "^20.5.0",
@@ -32,9 +41,11 @@
     "react-native-safe-area-context": "4.10.5",
     "react-native-screens": "3.31.1",
     "react-native-webview": "13.8.6"
+=======
+    "express": "^4.21.0",
+    "firebase": "^10.13.2",
+    "firebase-admin": "^12.5.0"
+>>>>>>> 88b3506444cc359d23327441f827fa1a376f15ac
   },
-  "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+  "description": ""
 }
