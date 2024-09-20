@@ -17,8 +17,11 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "googleServicesFile": "./google-services.json",
+        "useNextNotificationsApi": true
+      },
+      "package": "com.saikrishnakancharla.PhoneAuth"
     },
     "web": {
       "favicon": "./assets/favicon.png"
